@@ -1,0 +1,30 @@
+* source 0602PROJ
+R_R1         1C N12499  1k TC=0,0 
+Q_Q1         1C N12567 1E QbreakN 
+R_R17         N12567 N12499  100 TC=0,0 
+R_R2         N12647 1E  18k TC=0,0 
+V_V1         VIN 0 DC 0Vdc AC 1mVac 
+V_V3         N12499 0 5Vdc
+V_V2         0 N12647 5Vdc
+C_C1         VIN 1E  150u  TC=0,0 
+R_R18         4B N12499  9.5k TC=0,0 
+R_R19         N12647 4B  9.5k TC=0,0 
+Q_Q4         N14145 4B 4E QbreakN 
+R_R20         N12647 4E  8.9k TC=0,0 
+R_R21         N14145 N12499  8.9k TC=0,0 
+C_C2         1C 2B  7.364n  TC=0,0 
+R_R22         N12647 2B  10k TC=0,0 
+R_R23         2B N12499  90k TC=0,0 
+Q_Q2         2C 2B N15225 QbreakN 
+R_R24         2C N12499  0.5k TC=0,0 
+R_R25         N12647 N15225  18 TC=0,0 
+C_C3         2C 3B  8.648n  TC=0,0 
+C_C4         4E VOUT  150u  TC=0,0 
+R_R26         0 VOUT  2meg TC=0,0 
+R_R27         3B N12499  90k TC=0,0 
+R_R28         N12647 3B  10k TC=0,0 
+Q_Q3         3C 3B N17330 Qbreakn 
+R_R29         3C N12499  0.5k TC=0,0 
+R_R30         N12647 N17330  18 TC=0,0 
+C_C5         3C 4B  150u  TC=0,0 
+C_C6         1C N12499  230p  TC=0,0 

@@ -1,0 +1,30 @@
+* source CIRCUIT_308552967_308256304
+R_R19         N33904 4B  9.5k TC=0,0 
+R_R2         N33904 1E  18k TC=0,0 
+Q_Q4         N33406 4B 4E QbreakN 
+C_C2         1C 2B  7.364n  TC=0,0 
+R_R24         2C N33140  0.5k TC=0,0 
+R_R26         0 VOUT  2meg TC=0,0 
+Q_Q2         2C 2B N33758 QbreakN 
+R_R28         N33904 3B  10k TC=0,0 
+C_C1         VIN 1E  150u  TC=0,0 
+V_V3         N33140 0 5Vdc
+R_R22         N33904 2B  10k TC=0,0 
+R_R29         3C N33140  0.5k TC=0,0 
+C_C4         4E VOUT  150u  TC=0,0 
+C_C5         3C 4B  150u  TC=0,0 
+R_R30         N33904 N33706  18 TC=0,0 
+R_R17         N33438 N33140  100 TC=0,0 
+R_R1         1C N33140  1k TC=0,0 
+C_C3         2C 3B  8.648n  TC=0,0 
+R_R21         N33406 N33140  8.9k TC=0,0 
+R_R25         N33904 N33758  18 TC=0,0 
+R_R20         N33904 4E  8.9k TC=0,0 
+R_R18         4B N33140  9.5k TC=0,0 
+V_V1         VIN 0 DC 0Vdc AC 1mVac 
+R_R23         2B N33140  90k TC=0,0 
+Q_Q1         1C N33438 1E QbreakN 
+Q_Q3         3C 3B N33706 Qbreakn 
+R_R27         3B N33140  90k TC=0,0 
+V_V2         0 N33904 5Vdc
+C_C6         1C N33140  230p  TC=0,0 
